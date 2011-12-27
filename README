@@ -1,0 +1,42 @@
+filedump
+v1
+
+by jwc [ http://jwcxz.com/ ]
+
+INTRODUCTION
+	This is a very simple utility to upload, delete, and list files in a single directory.
+
+INSTALLATION
+	1) Upload index.php to a directory on your server.
+	2) Using your favorite editor, edit the first few lines for the configuration.
+
+USAGE
+	example situation: you have an installation on http://example.org/fd/
+
+	LISTING FILES
+		Go to http://example.org/fd/ to see a list of all files in this directory (minus the 
+		ones you chose to ignore in the configuration).  Type a few characters into the input
+		box to filter the results.
+
+		Alternatively, you can go to http://example.org/fd/?term to immediately filter by a
+		search term.  This can be helpful if you have a bunch of photos from a specific set
+		(e.g. laser1.jpg, laser2.jpg, etc.).
+
+	MANAGING FILES
+		If you place your cursor at the far top right of the page, you'll notice an "adm"
+		link.  Click it and type in your password.  You will now be presented with the
+		administration screen.
+
+		You can upload a file by using the first field.  You can also manually create a text
+		file by typing a filename into the second field (a text box will appear for the file
+		content.
+
+		To delete a file, click the "del" link (once to arm, again to confirm).
+
+CONCLUSION
+	Report all bugs to me via my website:
+		http://jwcxz.com/contact.php
+
+Enjoy!
+	JWC
+	http://jwcxz.com/
